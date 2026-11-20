@@ -11,12 +11,12 @@ Status: free preview, not a completed paid launch.
 ## Release checks
 
 - Production build: PASS using Next.js webpack.
-- Unit tests: PASS, seven core cases.
-- Browser tests: PASS, desktop/mobile routes, sample Devpost and ZIP, signed-out denial, foreign-origin rejection, real public repo to Neon-backed checklist.
+- Unit tests: PASS, nine core/model cases.
+- Browser tests: PASS, six tests including ZIP persistence and forged-token denial, desktop/mobile routes, sample Devpost and ZIP, signed-out denial, foreign-origin rejection, real public repo to Neon-backed checklist.
 - Dependency audit: PASS, zero vulnerabilities.
-- Placeholder scan: PASS before final documentation; rerun at final commit.
-- Header check: result recorded after final deployment.
-- Policy check: result recorded after final deployment.
+- Placeholder scan: PASS on final authored files.
+- Header check: PASS on HTTPS home, privacy and terms, including HSTS.
+- Policy check: PASS, distinct substantive pages.
 - Performance check: PASS, 612/664/564 ms cold mobile LCP, worst 664 ms. Local lab only.
 - Paid end-to-end: BLOCKED; no Stripe/OpenAI keys. No fabricated paid result.
 
@@ -74,3 +74,7 @@ Title: Show HN: ShipPack – hackathon submission packs from repo evidence
 URL: https://shippack-zeta.vercel.app
 
 Next.js, bounded ZIP inspection, allowlisted GitHub requests and Neon-backed expiring packs. The free checklist works; the model and payment adapters exist but live paid delivery is not validated. The sample is explicitly fictional. What would make a generated submission trustworthy enough to use under a deadline?
+
+## Media evidence
+
+Committed narrated demo: docs/demo.mp4, 43.64 seconds, H.264 video and AAC voice track. Burned captions are rendered as transparent SVG-derived PNG overlays because the installed FFmpeg lacks the subtitles filter. Audio levels were checked and a rendered frame was visually reviewed. Reproduce with the recording, caption-images and render-demo scripts; macOS say provides speech from docs/narration.txt.

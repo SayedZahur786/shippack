@@ -39,5 +39,5 @@ export async function generate(a: Analysis): Promise<Pack> {
       throw new Error(
         "Generation returned an incomplete pack. Retry without paying again.",
       );
-  return p;
+  return { readme: p.readme, devpost: p.devpost, script: p.script, checklist: p.checklist };
 }

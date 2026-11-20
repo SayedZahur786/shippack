@@ -28,6 +28,6 @@ Rehearse with a timed demo script.
 Four Markdown documents. One ZIP.
 
 8
-00:00:33,500 --> 00:00:38,700
+00:00:33,500 --> 00:00:43,640
 Explore the free preview.
 Paid generation awaits service credentials.

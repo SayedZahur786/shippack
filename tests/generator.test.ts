@@ -11,7 +11,7 @@ test("model adapter validates all four artifacts and supplies grounded instructi
     assert.match(input.messages[0].content, /Never invent/);
     assert.match(input.messages[1].content, /app\/api\/food/);
     return Response.json({
-      choices: [{ message: { content: JSON.stringify(samplePack) } }],
+      choices: [{ message: { content: JSON.stringify({...samplePack, "../../unexpected": "Discard this extra field"}) } }],
     });
   };
   try {
