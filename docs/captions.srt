@@ -1,0 +1,33 @@
+1
+00:00:00,000 --> 00:00:04,500
+You built the thing. Now ship the story.
+
+2
+00:00:04,500 --> 00:00:08,500
+A clearer submission, grounded in your repo.
+
+3
+00:00:08,500 --> 00:00:13,500
+GitHub or ZIP. Your checklist is free.
+
+4
+00:00:13,500 --> 00:00:18,500
+CampusPlate: a clearly labeled sample.
+
+5
+00:00:18,500 --> 00:00:24,000
+A structured Devpost story.
+Unverified results stay unclaimed.
+
+6
+00:00:24,000 --> 00:00:29,000
+Rehearse with a timed demo script.
+
+7
+00:00:29,000 --> 00:00:33,500
+Four Markdown documents. One ZIP.
+
+8
+00:00:33,500 --> 00:00:38,700
+Explore the free preview.
+Paid generation awaits service credentials.

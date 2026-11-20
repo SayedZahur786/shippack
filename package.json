@@ -1,1 +1,36 @@
-{"name":"shippack","version":"0.1.0","private":true,"scripts":{"dev":"next dev","build":"next build","start":"next start","test":"tsx --test tests/*.test.ts","typecheck":"tsc --noEmit","lint":"eslint .","shots":"playwright test"},"dependencies":{"next":"^16.0.0","react":"^19.2.0","react-dom":"^19.2.0","@neondatabase/serverless":"^1.0.2","stripe":"^20.0.0","fflate":"^0.8.2","tailwindcss":"^4.1.0","@tailwindcss/postcss":"^4.1.0"},"devDependencies":{"typescript":"^5.9.0","@types/node":"^24.0.0","@types/react":"^19.2.0","@types/react-dom":"^19.2.0","tsx":"^4.20.0","@playwright/test":"^1.56.0","eslint":"^9.0.0","eslint-config-next":"^16.0.0"}}
+{
+  "name": "shippack",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build --webpack",
+    "start": "next start",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "shots": "playwright test"
+  },
+  "dependencies": {
+    "@neon/config": "^1.14.5",
+    "@neon/env": "^2.1.8",
+    "@neondatabase/serverless": "^1.0.2",
+    "@tailwindcss/postcss": "^4.1.0",
+    "fflate": "^0.8.2",
+    "next": "^16.0.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "stripe": "^20.0.0",
+    "tailwindcss": "^4.1.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^16.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  }
+}

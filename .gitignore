@@ -5,3 +5,12 @@ node_modules/
 test-results/
 playwright-report/
 .vercel/
+
+.agents/
+.codex/
+.neon
+*.tsbuildinfo
+.vercel
+
+docs/recording/
+docs/recording-voice.aiff
