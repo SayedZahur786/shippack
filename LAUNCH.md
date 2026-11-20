@@ -78,3 +78,7 @@ Next.js, bounded ZIP inspection, allowlisted GitHub requests and Neon-backed exp
 ## Media evidence
 
 Committed narrated demo: docs/demo.mp4, 43.64 seconds, H.264 video and AAC voice track. Burned captions are rendered as transparent SVG-derived PNG overlays because the installed FFmpeg lacks the subtitles filter. Audio levels were checked and a rendered frame was visually reviewed. Reproduce with the recording, caption-images and render-demo scripts; macOS say provides speech from docs/narration.txt.
+
+## Final verification
+
+Frozen npm install, lint, typecheck, nine unit/model tests and six browser tests passed. Source and Git-history Gitleaks scans passed. Hosted repository analysis and persisted reload passed. Operational database rows currently include our integration-test records and zero verified sales; do not count them as traction.
